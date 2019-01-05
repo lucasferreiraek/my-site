@@ -1,0 +1,154 @@
+/***************************************************************/
+
+/* The sidenav bar */
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 16px 6px 16px;
+    text-decoration: none;
+    font-family: Roboto Mono;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f52e2e;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
+
+.lambda img{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+/***************************************************************/
+
+/*Home*/
+.main {
+    margin-left: 300px;
+    padding: 0px 10px;
+}
+
+.main h1 {
+    text-align: center;
+    font-family: Roboto Mono;
+}
+
+.main img {
+    width: 200px;
+    display: block;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: solid 2px;
+}
+
+.main p {
+    text-align: center;
+    font-family: Roboto Mono;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/***************************************************************/
+
+/*About me*/
+.aboutme {
+    text-align: left justify;
+    margin-left: 380px;
+    margin-right: 80px;
+    margin-top: 100px;
+    font-family: Roboto Mono;
+}
+
+.aboutme p {
+    font-size: 14px;
+}
+
+/***************************************************************/
+
+/*Blog*/
+.blog {
+    text-align: left justify;
+    margin-left: 380px;
+    margin-right: 80px;
+    margin-top: 71px;
+    font-family: Roboto Mono;
+}
+
+.blog p {
+    font-size: 14px;
+}
+
+/***************************************************************/
+
+/*Curriculum*/
+.curriculum {
+    text-align: left justify;
+    margin-left: 380px;
+    margin-right: 80px;
+    margin-top: 71px;
+    font-family: Roboto Mono;
+}
+
+.curriculum p {
+    font-size: 14px;
+}
+
+/***************************************************************/
+
+/*Contact*/
+.contact {
+    margin-left: 300px;
+    padding: 0px 10px;
+}
+
+.contact h1 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: Roboto Mono;
+}
+
+.contact h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: Roboto Mono;
+}
+
+.logo {
+    margin: auto 30px auto 177px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/***************************************************************/
