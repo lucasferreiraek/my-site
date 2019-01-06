@@ -77,7 +77,7 @@
     text-align: left justify;
     margin-left: 380px;
     margin-right: 80px;
-    margin-top: 100px;
+    margin-top: 71px;
     font-family: Roboto Mono;
 }
 
@@ -111,8 +111,27 @@
     font-family: Roboto Mono;
 }
 
+.lambdared {
+    height: 30px;
+    width: 28px;
+    margin-left: 380px;
+    margin-right: 5px;
+    margin-top: 71px;
+}
+
 .curriculum p {
     font-size: 14px;
+}
+
+.curriculum h1 {
+    margin-bottom: 30px;
+}
+
+.details {
+    padding-left: 3em;
+    padding-right: 200px;
+    font-size: 12px;
+    text-align: right justify;
 }
 
 /***************************************************************/
