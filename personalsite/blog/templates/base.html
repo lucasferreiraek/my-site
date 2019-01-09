@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lucas Ferreira | Home</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="shortcut icon" href="{% static 'img/lambda-transp-black-18.png' %}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+</head>
+<body>
+
+    <div class="sidenav">
+        <div class="lambda">
+            <img src="{% static 'img/lambda-transp.png' %}" alt=''>
+        </div>
+        <a href="{% url 'index' %}">Home</a>
+        <a href="{% url 'about-me' %}">About me</a>
+        <a href="{% url 'blog' %}">Blog</a>
+        <a href="{% url 'curriculum' %}">Curriculum</a>
+        <a href="{% url 'contact' %}">Contact</a>
+    </div>
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>

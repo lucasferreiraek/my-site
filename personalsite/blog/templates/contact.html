@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="contact">
+        <h1>You can find me though these social networks :)</h1>
+        
+        <div class="logo">
+            <a href="https://github.com/lucasferreiraek" title="GitHub">
+                <img src="{% static 'img/github.png' %}">
+            </a>
+        </div>
+
+        <div class="logo">
+            <a href="www.linkedin.com/in/lucas-ferreira-ek" title="LinkedIn">
+                <img src="{% static 'img/linkedin.png' %}">
+            </a>
+        </div>
+
+        <div class="logo">
+            <a href="https://twitter.com/lucasferreiraek" title="Twitter">
+                <img src="{% static 'img/twitter.png' %}">
+            </a>
+        </div>
+
+        <h3>Or, if you prefer, send an e-mail to: lucasferreiraek@gmail.com</h3>
+    </div>
+{% endblock %}

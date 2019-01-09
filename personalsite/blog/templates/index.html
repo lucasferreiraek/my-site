@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="main">
+        <a href="{% url 'curriculum' %}">
+            <img src="{% static 'img/lucas.jpg' %}">
+        </a>
+        <h1>Lucas Ferreira</h1>
+        <p>
+            Graduating in Computer Science, Python developer
+            focused in Machine Learning, Data Science e Web Development (for fun).
+        </p>
+    </div>
+{% endblock content %}
